@@ -1,0 +1,84 @@
+
+
+body {
+    text-align: center;
+    background-color: 3AAFA9
+}
+
+
+nav h3{
+    display:inline-flex;
+    float:right;
+    margin: 10px;
+    font-size: 25px;
+    color: FFFFFF;
+}
+
+h1.cv{
+    margin-left: 5px;
+    font-size: 80px;
+    color: FFFFFF;
+}
+
+div.navitems{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 45;
+}
+
+nav{
+    background-color: 2B7A78;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1{
+    color:17252A
+}
+
+h4{
+    color: FFFFFF;
+    font-size: 35px;
+}
+
+h5{
+    color: FFFFFF;
+    font-size: 30px;
+}
+
+ul{
+    text-align: right;
+    font-size: 25px;
+    margin: 100px;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+}
+
+Footer a, .Footer{ 
+    font-size: 30px; 
+}
+
+.Details{
+ margin-right: 80px;
+}
+
+.Projects{
+    margin-left: 80px;
+}
+
+
+nav h1 {
+    text-align: left;
+}
+
+.projectText {
+    background-color: white;
+    width: 1200px;
+}
+.projectBox {
+    display: inline-block;
+}
