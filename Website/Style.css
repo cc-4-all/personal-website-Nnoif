@@ -98,3 +98,9 @@ nav h1 {
 .projectBox {
     display: inline-block;
 }
+
+#prev:hover, 
+#next:hover
+{
+    cursor: pointer;
+}
