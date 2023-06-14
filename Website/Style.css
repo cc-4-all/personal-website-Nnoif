@@ -1,4 +1,7 @@
 
+*{
+    scroll-behavior: smooth;
+}
 
 body {
     text-align: center;
@@ -21,8 +24,12 @@ h1.cv{
 }
 
 div.navitems{
-    margin-top: 10px;
     margin-left: 20px;
+    margin-top: 35;
+}
+
+.navitems a{
+    margin: 0px 20px;
 }
 
 nav{
@@ -32,9 +39,28 @@ nav{
     justify-content: flex-start;
 }
 
+h1{
+    color:17252A;
+}
+
 h4{
     color: FFFFFF;
     font-size: 35px;
+}
+
+h5{
+    color: FFFFFF;
+    font-size: 30px;
+}
+
+h6{
+    color: 17252A;
+    font-size: 40px;
+}
+
+h7{
+    color: white;
+    font-size: 20;
 }
 
 ul{
