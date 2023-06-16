@@ -1,58 +1,106 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  scroll-behavior: smooth;
+
+*{
+    scroll-behavior: smooth;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background: lightgray;
-  padding: 25px;
+body {
+    text-align: center;
+    background-color: 3AAFA9
 }
 
-main {
-  padding-top: 55px;
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+
+nav h3{
+    display:inline-flex;
+    float:right;
+    margin: 10px;
+    font-size: 25px;
+    color: FFFFFF;
 }
 
-main h2 {
-  margin-top: 10px;
+h1.cv{
+    margin-left: 5px;
+    font-size: 80px;
+    color: FFFFFF;
 }
 
-footer {
-  background: lightgray;
-  padding: 25px;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  margin-top: 25px;
+div.navitems{
+    margin-left: 20px;
+    margin-top: 35;
 }
 
-.profile-picture {
-  border-radius: 100%;
-
-  transition: all ease-in-out 300ms;
+.navitems a{
+    margin: 0px 20px;
 }
 
-.profile-item {
-  margin-top: 50px;
-  margin-bottom: 50px;
+nav{
+    background-color: 2B7A78;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.initials {
-  color: blueviolet;
+h1{
+    color:17252A;
 }
 
-img {
-  margin-top: 10px;
+h4{
+    color: FFFFFF;
+    font-size: 35px;
+}
+
+h5{
+    color: FFFFFF;
+    font-size: 30px;
+}
+
+h6{
+    color: 17252A;
+    font-size: 40px;
+}
+
+h7{
+    color: white;
+    font-size: 20;
+}
+
+ul{
+    text-align: right;
+    font-size: 25px;
+    margin: 100px;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+}
+
+Footer a, .Footer{ 
+    font-size: 30px; 
+}
+
+.Details{
+ margin-right: 80px;
+}
+
+.Projects{
+    margin-left: 80px;
+}
+
+
+nav h1 {
+    text-align: left;
+}
+
+.projectText {
+    background-color: white;
+    width: 1200px;
+}
+.projectBox {
+    display: inline-block;
+}
+
+#prev:hover, 
+#next:hover
+{
+    cursor: pointer;
 }

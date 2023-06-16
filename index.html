@@ -1,58 +1,87 @@
 <html>
-  <head>
-    <title>My website</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav id="top">
-      <h1 class="initials">JB</h1>
-      <h2><a href="mailto:email@example.com">✉ jakeblack@iadt.ie</a></h2>
-    </nav>
-    <main>
-      <div class="profile-item">
-        <img
-          id="profile-picture"
-          class="profile-picture"
-          src="jake.png"
-          width="250"
-        />
-        <h2>My name is Jake 👋</h2>
-      </div>
+    <head>
+        <title>CVWebsite</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
 
-      <hr width="100%" />
-
-      <div class="profile-item">
-        <h1>About me</h1>
-        <h4>
-          Hi, I'm (your name), a (whatever you do) with a passion for (your
-          interests). I enjoy (your hobby) and (another hobby) and I'm
-          constantly seeking new opportunities to learn and grow in (something
-          you like). Welcome to my website!
-        </h4>
-      </div>
-
-      <div class="profile-item">
-        <h1>My interests</h1>
-        <img src="hedgehog.png" width="250" />
-        <h2>Hedgehogs</h2>
-        <h4>
-          I've always been fascinated by hedgehogs due to their adorable quills
-          and unique appearance. Hedgehogs are such interesting creatures, and I
-          love how they curl up into little balls for protection.
-        </h4>
-      </div>
-
-      <div class="profile-item">
-        <img src="rosie.JPEG" width="250" />
-        <h2>Cats</h2>
-        <h4>
-          Cats have this incredible ability to be both independent and
-          affectionate, which I find endearing. There's something captivating
-          about a cat's graceful movements and their mysterious, curious nature.
-        </h4>
-      </div>
-    </main>
-    <footer><a href="#top">Back to top</a></footer>
-  </body>
-  <script src="script.js"></script>
+    <body>
+        <nav>
+            <h5>Fionn Mcnally</h5>
+            <div class="navitems" >
+                <a href="#Top">  <img src = "House.png" width="65" height="65"/>  </a>
+                <a href="#Detail"><img src = "PenOnPaper.png" width="65" height="65"/> </a>
+                <a href="#projectBox1"><img src = "Cubes.png" width="65" height="65"/> </a>
+            </div>
+               
+        </nav>
+        <main>
+            <h1 class ="cv">CV</h1>
+            <h1>Home</h1>
+            <h1>....................................................................................................................................</h1>
+            <h4>This website includes details about me, my past work experience, and the projects i have made.</h4>
+            <div class="row">  
+            <div class="Details">
+                <a href="#Detail"><img src = "PenOnPaper.png" width="200" height="200"/> </a>
+                <h1>Details:</h1>
+                <h4>Past experiences</h4>
+            </div>
+            <div div="Projects">
+                <a href="#projectBox1"><img src = "Cubes.png" width="200" height="200"/> </a>
+                <h1>Projects:</h1>
+                <h4>Things I worked on</h4>
+            </div>
+        </div>
+            <h4>In the past few years I have not had a lot of work experience, but I have worked on many different projects.</h4>
+            <div id="Detail">
+            <h1>....................................................................................................................................</h1>
+            <h1>About Me</h1>
+            <h1>....................................................................................................................................</h1>
+            <h4>Hello, my name is Fionn. I am 14 years old. This website contains my CV and details about me.<br> I love coding in C# and other languages. I have made many games in short peroids of time.</h4>
+        </div>
+            <div>
+                <h1>....................................................................................................................................</h1>
+                <h1>Details</h1>
+                <h1>....................................................................................................................................</h1>
+                <h4>I have done multiple online coding courses coding courses for Python, C++, C#, Java,<br> and the Unity Game Engine. I have used this knowledge to create multiple small games.<br> Some of my most recent projects can be found in the page below.</h4>
+                </div>
+            <div>
+                <div id="projectBox1">
+                <div class="projectBox">
+                <h1>....................................................................................................................................</h1>
+                <h1>Projects</h1>
+                <h1>....................................................................................................................................</h1>
+                <div class="projectText">
+                    <h1>Asteroids: For my most recent project, i recreated the classic game from 1979, Asteroids in a day.</h1>
+                    <div id ="gallery1">
+                        <button id="Left1">◀</button>
+                        <img src = "Asteroids.jpg" id = "gallery_img1"/>
+                        <button id="Right1">▶</button>
+                    </div>
+                </div>
+                <div  class="projectText">
+                    <h1> I have also created 2 different platformer games. Making each of these took around a week.</h1>
+                    <div id ="gallery2">
+                        <button id="Left2">◀</button>
+                        <img src = "platformer.jpg" id = "gallery_img2"/>
+                        <button id="Right2">▶</button>
+                    </div>
+                </div>
+                <div  class="projectText">
+                    <h1>FPS: I have attempted to create a first person shooter game multiple times but I have only finished one.</h1>
+                    <div id ="gallery3">
+                        <button id="Left3">◀</button>
+                        <img src = "fps.jpg" id = "gallery_img3"/>
+                        <button id="Right3">▶</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+            <hr />
+            <footer>
+                <a href="#top"> <h6> Back To Top! </h6> </a>
+            </footer>
+                <script src = "Script.js"></script>
+        </main>
+    </body>
 </html>
